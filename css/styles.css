@@ -1,0 +1,14 @@
+@import "https://fonts.google.com/share?selection.family=Open%20Sans:wght@500;700";
+@import "reset.css";
+@import "variables.css";
+
+/* Conponents */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+
+/* Screens*/
+@import "screens/login.css";
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
