@@ -33,3 +33,14 @@
   position: absolute;
   right: -5px;
 }
+
+.cog__check {
+  background-color: tomato;
+  display: block;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  position: absolute;
+  right: 20px;
+  top: 50px;
+}
