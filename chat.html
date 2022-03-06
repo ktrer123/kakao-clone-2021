@@ -4,9 +4,9 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats - Kokoa Clone</title>
+    <title>Chat w/ktrer123 - Kokoa Clone</title>
   </head>
-  <body>
+  <body id="chat-screen">
     <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
@@ -22,37 +22,45 @@
       </div>
     </div>
 
-    <header class="screen-header">
-      <h1 class="screen-header__title">Chats</h1>
-      <div class="screen-header__icons">
+    <header class="alt-header">
+      <div class="alt-header__column">
+        <a href="chats.html">
+          <i class="fas fa-angle-left fa-2x"></i>
+        </a>
+      </div>
+      <div class="alt-header__column">
+        <h1 class="alt-header__title">고성찬</h1>
+      </div>
+      <div class="alt-header__column">
         <span><i class="fas fa-search fa-lg"></i></span>
-        <span><i class="far fa-comment-dots fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span><i class="fas fa-cog fa-lg"></i></span>
+        <span><i class="fas fa-bars fa-lg"></i></span>
       </div>
     </header>
 
-    <main class="main-screen">
-      <a href="chat.html">
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="C:\Users\GSC\OneDrive\바탕 화면\KakaoTalk_20220106_181011026.jpg"
-              class="user-component__avatar user-component__avatar"
-            />
-            <div class="user-component__text">
-              <h4 class="user-component__title">Nicolas</h4>
-              <h6 class="user-component__subtitle">
-                Please check My Kokoa Account Info
-              </h6>
-            </div>
-          </div>
-          <div class="user-component__column">
-            <span class="user-component__time">21:22 </span>
-            <div class="badge">1</div>
+    <main class="main-screen main-chat">
+      <div class="chats__timestamp">Wednesday, March 3,2022</div>
+
+      <div class="message-row">
+        <img
+          src="file:///C:/Users/GSC/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/KakaoTalk_20220106_181011026.jpg"
+        />
+        <div class="message-row__content">
+          <span class="message__author">Ktrer123</span>
+          <div class="message__info">
+            <span class="message__bubble">Hi!</span>
+            <span class="message__time">21:27</span>
           </div>
         </div>
-      </a>
+      </div>
+
+      <div class="message-row message-row--own">
+        <div class="message-row__content">
+          <div class="message__info">
+            <span class="message__bubble">Hi! nice to meet</span>
+            <span class="message__time">21:27</span>
+          </div>
+        </div>
+      </div>
     </main>
 
     <nav class="nav">
@@ -65,7 +73,7 @@
         <li class="nav__btn">
           <a class="nav__link" href="chats.html">
             <span class="nav__notification badge">1</span>
-            <i class="fas fa-comment fa-2x"></i>
+            <i class="far fa-comment fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
